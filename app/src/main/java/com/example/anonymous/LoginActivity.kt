@@ -20,7 +20,7 @@ class LoginActivity: AppCompatActivity(){
 
 
         dont_havr_account_textView.setOnClickListener {
-            val intent = Intent(this, MainActivity::class.java)
+            val intent = Intent(this, RegisterActivity::class.java)
             startActivity(intent)
         }
     }
